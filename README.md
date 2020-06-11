@@ -5,7 +5,7 @@ Almost zero fluff template for people who just want to make a TypeScript library
 
 Includes:
 - Jest testing in TypeScript with coverage.
-- ESLint with recommended rules + 2 of my own rules.
+- ESLint with recommended rules and some of my own rules.
 - Some configurations.
 - That's about it.
 
