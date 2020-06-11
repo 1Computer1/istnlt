@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A library.",
   "keywords": [],
-  "main": "dist/library.js",
+  "main": "dist/lib/library.js",
   "typings": "dist/types/library.d.ts",
   "files": [
     "dist"
