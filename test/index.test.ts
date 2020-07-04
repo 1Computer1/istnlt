@@ -1,4 +1,4 @@
-import { FunThing } from "../src/library";
+import { FunThing } from '../src';
 
 describe("Fun test", () => {
     it("works if true is truthy", () => {
