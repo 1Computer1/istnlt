@@ -5,8 +5,13 @@
   "keywords": [],
   "main": "dist/lib/index.js",
   "typings": "dist/types/index.d.ts",
+  "exports": {
+    "import": "./esm/index.mjs",
+    "require": "./dist/lib/index.js"
+  },
   "files": [
-    "dist"
+    "dist",
+    "esm"
   ],
   "author": "Person <person@example.com>",
   "repository": {

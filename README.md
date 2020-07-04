@@ -4,6 +4,7 @@
 Almost zero fluff template for people who just want to make a TypeScript library in Node and are too lazy to care about other things.
 
 Includes:
+- CommonJS and ESM exports.
 - Jest testing in TypeScript with coverage.
 - ESLint with recommended rules and some of my own rules.
 - Some configurations.
