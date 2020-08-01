@@ -26,7 +26,8 @@
     "lint": "eslint ./src ./test --ext .ts",
     "build": "rimraf dist && tsc",
     "test": "jest --coverage",
-    "prepublishOnly": "npm run test && npm run build"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint && npm run test"
   },
   "jest": {
     "transform": {
